@@ -1,5 +1,6 @@
 # Ayeeduino Mega
 ## With AtMega16U2 for serial communication
+### Aditya Sehgal
 
 </p>This is a custom Arduino type development board that houses the AtMega2560 and can be programmed using the Arduino IDE. In order to succesfully program the board, first you need to flash the bootloader on both the MCUs using either the Arduino IDE or Nick Gammons Bootloader Programmer:</p>
 https://www.gammon.com.au/bootloader<br>
