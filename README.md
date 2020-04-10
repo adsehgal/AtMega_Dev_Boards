@@ -4,7 +4,7 @@
 </p>This repo is a compilation of custom development boards I have taken upon myself to design. These boards house the AtMega family of microcontrollers and are similar to Arduino boards, however, with personal customizations as follows:</p>
  <il>   
 
-- Reduce the physical size of the Arduino Mega by roughly half.
+- Reduce the physical size of the reference Arduinos by roughly half.
 - Implement USB-C for future proofing.
 - Remove unnecessary components.
  <il>
