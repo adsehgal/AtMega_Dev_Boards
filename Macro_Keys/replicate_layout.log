@@ -1,0 +1,34 @@
+06-11 05:48:18 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+06-11 05:48:18 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+06-11 05:48:18 replicate_layout.action_replicate_layout 307:KiCad build version: (5.99.0-1662-g9db296991)
+06-11 05:48:18 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+06-11 05:48:18 replicate_layout.action_replicate_layout 340:Preparing replicator with SW2 as a reference
+06-11 05:48:18 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+06-11 05:48:18 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{}
+06-11 05:48:18 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+06-11 05:48:18 replicate_layout.action_replicate_layout 367:source anchor footprint is u'SW2'
+Located on:[]
+With filenames:[]
+With sheet_id:[]
+06-11 05:48:18 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'SW2', [])]
+06-11 05:48:18 replicate_layout.action_replicate_layout 384:Showing dialog
+06-11 05:48:18 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-8, -8)
+06-11 05:48:18 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+06-11 05:48:18 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(-1920, 787, 1920, 1080)
+06-11 05:48:18 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1710, 121)
+06-11 05:48:18 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1397, 121)
+06-11 05:48:22 STDERR 426:Traceback (most recent call last):
+06-11 05:48:22 STDERR 426:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/replicate_layout/action_replicate_layout.py", line 152, in OnOk
+06-11 05:48:22 STDERR 426:sheets_on_a_level = self.replicator.get_sheets_to_replicate(self.src_anchor_module, self.src_anchor_module.sheet_id[level])
+06-11 05:48:22 STDERR 426:IndexError
+06-11 05:48:22 STDERR 426::
+06-11 05:48:22 STDERR 426:list index out of range
+06-11 05:48:23 STDERR 426:Traceback (most recent call last):
+06-11 05:48:23 STDERR 426:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/replicate_layout/action_replicate_layout.py", line 152, in OnOk
+06-11 05:48:23 STDERR 426:sheets_on_a_level = self.replicator.get_sheets_to_replicate(self.src_anchor_module, self.src_anchor_module.sheet_id[level])
+06-11 05:48:23 STDERR 426:IndexError
+06-11 05:48:23 STDERR 426::
+06-11 05:48:23 STDERR 426:list index out of range
+06-11 05:48:24 replicate_layout.action_replicate_layout 252:User canceled the dialog
