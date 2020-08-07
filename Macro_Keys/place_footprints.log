@@ -1,0 +1,14 @@
+07-18 19:03:28 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+07-18 19:03:28 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+07-18 19:03:28 place_footprints.action_place_footprints 416:KiCad build version: (5.99.0-2326-ge7e1d5140)
+07-18 19:03:28 place_footprints.action_place_footprints 417:Place footprints plugin version: 48 started
+07-18 19:03:29 place_footprints.place_footprints 210:getting project hierarchy from schematics
+07-18 19:03:29 place_footprints.place_footprints 219:getting a list of all footprints on board
+07-18 19:03:29 place_footprints.action_place_footprints 463:Reference designator is: SW
+07-18 19:03:29 place_footprints.action_place_footprints 464:Rerefence number is: 2
+07-18 19:03:29 place_footprints.action_place_footprints 495:Sorted and filtered list:
+[u'SW1', u'SW2', u'SW3', u'SW4', u'SW5', u'SW6', u'SW7', u'SW8', u'SW9', u'SW10', u'SW11', u'SW12', u'SW13', u'SW14']
+07-18 19:03:48 place_footprints.action_place_footprints 526:Modules to place:
+[u'SW2', u'SW3', u'SW4', u'SW5', u'SW6', u'SW7', u'SW8', u'SW9', u'SW10', u'SW12', u'SW13', u'SW14']
+07-18 19:03:48 place_footprints.place_footprints 397:Starting placing with matrix layout
+07-18 19:03:48 place_footprints.action_place_footprints 593:Placing complete
